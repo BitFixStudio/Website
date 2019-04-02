@@ -1,32 +1,17 @@
-/*@font-face {
-    font-family: 'Working';
-    src: url('WebFonts/IBMP/IBMPlexMono-Bold.otf');
-    src: local('IBMP');
-    font-style: normal;
-    font-weight: 300;
+@font-face {
+    font-family: "CODEL";    
+    src: 
+    url("WebFonts/Code-Light/CODE_Light.woff") format("woff"),
+    url("WebFonts/Code-Light/CODE_Light.svg") format("svg"); 
 }
-*/
-.IBMP{
-    font-family: 'IBMPf';
-    src: url('WebFonts/IBMP/IBMPlexMono-Bold.otf');
-    src: local('IBMP');
-    font-style: normal;
+@font-face{
+    font-family: "Lob";    
+    src: 
+    url("WebFonts/Lobster1_4/Lobster_1_4.woff") format("woff"),
+    url("WebFonts/Lobster1_4/Lobster_1_4.svg") format("svg"); 
 }
-.aero{
-    font-family: 'areof';
-    src: url('WebFonts/aero2/Aero.ttf');
-    src: local('aero2');
-    font-style: normal;
-}
-.goodT{
-    font-family: 'goodTf';
-    src: url('WebFonts/good_times/good\ times\ rg.ttf');
-    src: local('good_times');
-    font-style: normal;
-}
-.hijo{
-    font-family: 'hijof';
-    src: url('WebFonts/hijo_puta_peligroso/Hijo\ Puta\ Peligroso.otf');
-    src: local('hijo_puta_peligroso');
-    font-style: normal;
+p{
+    font-family: 'Lob', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
 }
