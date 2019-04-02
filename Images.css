@@ -8,9 +8,10 @@
 }
 .BitFixHome{
     border: 10px solid rgb(252, 170, 6);
-    position: relative;
+    position: absolute;
     left: 30px;
     top: 2px;
+    
 }
 .BitFixHeader{
     margin-left: auto;
@@ -51,3 +52,5 @@ html{
     background: rgb(0, 0, 0);
     -webkit-mask-size: 100%;
 }
+
+

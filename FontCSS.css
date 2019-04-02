@@ -1,7 +1,32 @@
-@font-face {
+/*@font-face {
     font-family: 'Working';
     src: url('WebFonts/IBMP/IBMPlexMono-Bold.otf');
     src: local('IBMP');
     font-style: normal;
     font-weight: 300;
+}
+*/
+.IBMP{
+    font-family: 'IBMPf';
+    src: url('WebFonts/IBMP/IBMPlexMono-Bold.otf');
+    src: local('IBMP');
+    font-style: normal;
+}
+.aero{
+    font-family: 'areof';
+    src: url('WebFonts/aero2/Aero.ttf');
+    src: local('aero2');
+    font-style: normal;
+}
+.goodT{
+    font-family: 'goodTf';
+    src: url('WebFonts/good_times/good\ times\ rg.ttf');
+    src: local('good_times');
+    font-style: normal;
+}
+.hijo{
+    font-family: 'hijof';
+    src: url('WebFonts/hijo_puta_peligroso/Hijo\ Puta\ Peligroso.otf');
+    src: local('hijo_puta_peligroso');
+    font-style: normal;
 }
