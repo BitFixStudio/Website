@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "CODEL";    
+    src: 
+    url("WebFonts/Code-Light/CODE_Light.woff") format("woff"),
+    url("WebFonts/Code-Light/CODE_Light.svg") format("svg"); 
+}
+@font-face{
+    font-family: "Lob";    
+    src: 
+    url("WebFonts/Lobster1_4/Lobster_1_4.woff") format("woff"),
+    url("WebFonts/Lobster1_4/Lobster_1_4.svg") format("svg"); 
+}
+p{
+    font-family: 'Lob', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+}

@@ -1,0 +1,85 @@
+
+
+.BitFixHome:hover{
+    border: 9px solid  rgb(255, 170, 0);
+}
+.BitFixHome:active{
+    border-color: rgb(235, 170, 6);
+}
+.BitFixHome{
+    border: 10px solid rgb(252, 170, 6);
+    position: absolute;
+    left: 30px;
+    top: 2px; 
+    
+}
+.BitFixHeader{
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    height: 100px;
+    border-bottom:3px solid rgb(0, 0, 0);
+    background: rgba(252, 170, 6);
+    position: -webkit-sticky;
+    position: sticky;
+}
+.BitFixHeadHolder{
+    position: initial;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1000px;
+    background: rgb(255, 68, 0)
+}
+.BitFixHome:hover{
+
+}
+
+html{
+    height: 8000px;
+    overflow: scroll;
+}
+.menuOpenHolder{
+    position: initial;
+    top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 1025px;
+    background: coral;    
+}
+.menuOpenHold{ 
+    position: absolute;
+    position: -webkit-sticky;
+    right: 5px;
+    top: 0px;
+    width: 100px;
+    height: 100px;
+}
+
+
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
